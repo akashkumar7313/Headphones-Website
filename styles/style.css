@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500;600&family=Plus+Jakarta+Sans&family=Poppins:wght@700&family=Roboto:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #9ff5ed;
+}
+
+body{
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+nav{
+    padding: 30px 60px;
+    height: 15vh;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 5%;
+    font-weight: 600;
+}
+
+nav ul li img{
+    width: 100px;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-section{
+    width: 40%;
+}
+
+.left-section h1{
+    font-size: 70px;
+}
+
+.left-section p{
+    margin: 5% 0;
+    font-size: 20px;
+}
+
+.left-section button{
+    padding: 10px 15px;
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+    background-color: #3b855b;
+    border: none;
+    border-radius: 10px;
+}
+
+.right-section{
+    padding: 7%;
+}
+
+.right-section div img{
+    width: 30%;
+}
+
+.right-section div img:first-child {
+    margin-right: 20px;
+}
+
+.right-section div {
+    margin-bottom: 20px;
+}
+
+.right-section > img{
+    width: 64%;
+}
